@@ -16,8 +16,11 @@
    ```sh
     git clone https://github.com/razidev/Mekar-Service.git
    ```
-2. Open both folder frontend and backend services
-3. then type this command to run:
+2. Open backend service folder, run this command:
    ```sh
     docker-compose up
+   ```
+3. then Open frontend service folder, run this command:
+   ```sh
+    docker-compose up --build
    ```
