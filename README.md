@@ -16,11 +16,12 @@
    ```sh
     git clone https://github.com/razidev/Mekar-Service.git
    ```
-2. Open backend service folder, run this command:
+2. Open backend service folder, create file `.env` like `.env_example`. In `.env` just add your database url:
+3. Still on the backend service folder, run this command:
    ```sh
     docker-compose up
    ```
-3. then Open frontend service folder, run this command:
+4. then Open frontend service folder, run this command:
    ```sh
     docker-compose up --build
    ```
